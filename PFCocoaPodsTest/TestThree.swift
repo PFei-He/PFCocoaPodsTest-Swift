@@ -7,7 +7,7 @@
 //
 //  https://github.com/PFei-He/PFCocoaPodsTest-Swift
 //
-//  vesion: 0.0.1
+//  vesion: 0.0.3
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -30,6 +30,9 @@
 
 import UIKit
 
-class TestThree: NSObject {
+public class TestThree: NSObject {
 
+    public class func log() {
+        print("3")
+    }
 }
