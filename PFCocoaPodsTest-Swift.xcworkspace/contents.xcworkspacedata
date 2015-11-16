@@ -4,15 +4,27 @@
    <Group
       location = "group:PFCocoaPodsTest-Swift"
       name = "PFCocoaPodsTest-Swift">
-      <FileRef
-         location = "group:TestOne.swift">
-      </FileRef>
-      <FileRef
-         location = "group:TestThree.swift">
-      </FileRef>
-      <FileRef
-         location = "group:TestTwo.swift">
-      </FileRef>
+      <Group
+         location = "container:"
+         name = "One">
+         <FileRef
+            location = "group:PFCocoaPodsTest-Swift/TestOne.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "Three">
+         <FileRef
+            location = "group:PFCocoaPodsTest-Swift/TestThree.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "Two">
+         <FileRef
+            location = "group:PFCocoaPodsTest-Swift/TestTwo.swift">
+         </FileRef>
+      </Group>
    </Group>
    <FileRef
       location = "group:Demo/Demo.xcodeproj">

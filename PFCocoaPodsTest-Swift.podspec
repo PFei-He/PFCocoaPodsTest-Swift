@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
   s.homepage                = "https://github.com/PFei-He/PFCocoaPodsTest-Swift"
   s.license                 = { :type => "MIT", :file => "LICENSE" }
   s.author                  = { "PFei-He" => "498130877@qq.com" }
-  s.platform                = :ios, "7.0"
-  s.ios.deployment_target   = "7.0"
+  s.platform                = :ios, "8.0"
+  s.ios.deployment_target   = "8.0"
   s.source                  = { :git => "https://github.com/PFei-He/PFCocoaPodsTest-Swift.git", :tag => "0.0.1" }
   s.requires_arc            = true
 
