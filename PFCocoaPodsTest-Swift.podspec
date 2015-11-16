@@ -11,15 +11,14 @@ Pod::Spec.new do |s|
   s.requires_arc            = true
 
   s.subspec 'One' do |ss|
-    ss.source_files = 'PFCocoaPodsTest-Swift/TestOne.swift'
+    ss.source_files = 'PFCocoaPodsTest/TestOne.swift'
   end
 
   s.subspec 'Two' do |ss|
-    ss.source_files = 'PFCocoaPodsTest-Swift/TestThree.swift'
+    ss.source_files = 'PFCocoaPodsTest/TestThree.swift'
   end
 
   s.subspec 'Three' do |ss|
-    ss.source_files = 'PFCocoaPodsTest-Swift/TestTwo.swift'
+    ss.source_files = 'PFCocoaPodsTest/TestTwo.swift'
   end
-
 end
