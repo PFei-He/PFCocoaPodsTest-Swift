@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author                  = { "PFei-He" => "498130877@qq.com" }
   s.platform                = :ios, "8.0"
   s.ios.deployment_target   = "8.0"
-  s.source                  = { :git => "https://github.com/PFei-He/PFCocoaPodsTest-Swift.git", :tag => "0.0.1" }
+  s.source                  = { :git => "https://github.com/PFei-He/PFCocoaPodsTest-Swift.git", :tag => s.version }
   s.requires_arc            = true
 
   s.subspec 'One' do |ss|

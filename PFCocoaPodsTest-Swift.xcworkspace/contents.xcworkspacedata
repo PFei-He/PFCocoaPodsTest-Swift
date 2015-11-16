@@ -2,27 +2,27 @@
 <Workspace
    version = "1.0">
    <Group
-      location = "group:PFCocoaPodsTest-Swift"
-      name = "PFCocoaPodsTest-Swift">
+      location = "group:PFCocoaPodsTest"
+      name = "PFCocoaPodsTest">
       <Group
          location = "container:"
          name = "One">
          <FileRef
-            location = "group:PFCocoaPodsTest-Swift/TestOne.swift">
+            location = "group:PFCocoaPodsTest/TestOne.swift">
          </FileRef>
       </Group>
       <Group
          location = "container:"
          name = "Three">
          <FileRef
-            location = "group:PFCocoaPodsTest-Swift/TestThree.swift">
+            location = "group:PFCocoaPodsTest/TestThree.swift">
          </FileRef>
       </Group>
       <Group
          location = "container:"
          name = "Two">
          <FileRef
-            location = "group:PFCocoaPodsTest-Swift/TestTwo.swift">
+            location = "group:PFCocoaPodsTest/TestTwo.swift">
          </FileRef>
       </Group>
    </Group>
