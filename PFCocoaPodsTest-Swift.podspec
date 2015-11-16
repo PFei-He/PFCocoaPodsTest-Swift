@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                    = "PFCocoaPodsTest-Swift"
-  s.version                 = "0.0.1"
+  s.version                 = "0.0.2"
   s.summary                 = "Just test how 'CocoaPods' use"
   s.homepage                = "https://github.com/PFei-He/PFCocoaPodsTest-Swift"
   s.license                 = { :type => "MIT", :file => "LICENSE" }
