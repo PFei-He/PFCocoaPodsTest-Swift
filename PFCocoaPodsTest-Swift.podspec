@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Two' do |ss|
-    ss.source_files = 'PFCocoaPodsTest/TestThree.swift'
+    ss.source_files = 'PFCocoaPodsTest/TestTwo.swift'
   end
 
   s.subspec 'Three' do |ss|
-    ss.source_files = 'PFCocoaPodsTest/TestTwo.swift'
+    ss.source_files = 'PFCocoaPodsTest/TestThree.swift'
   end
 end
